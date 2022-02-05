@@ -1,0 +1,111 @@
+body{
+    overflow-x: hidden;
+}
+.navbar-brand img{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 100%;
+    transform: translateX(3rem);
+}
+.navbar{
+    height: 10vh;
+    padding: 0;
+
+}
+.collapse{
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-item a{
+    font-size: large;
+    font-weight: bold;
+    border-radius: 4rem;
+    transition-duration: 500ms;
+
+}
+.nav-item a:hover{
+    background-color: aqua;
+    border-radius: 4rem;
+}
+.image img{
+    height: 40%;
+    width: 40%;
+    transform: translateX(45rem) translateY(5rem);
+
+}
+.website{
+    font-size: 7rem;
+    font-weight: bolder;
+    text-shadow: 3px 3px 2px rgb(1, 36, 76);
+    position: absolute;
+    transform: translateX(5rem) translateY(7rem);
+    color: rgb(16, 101, 165);
+}
+.des{
+    font-size: 4rem;
+    font-weight: bold;
+    text-shadow: none;
+    color: rgb(235, 111, 77);
+    font-family: cursive;
+
+}
+.website button{
+    transform: translateX(12rem);
+    padding: .6rem 2rem;
+    font-size: large;
+    border: 2px solid currentColor;
+    font-weight: bold;
+}
+.cont1 p{
+    font-size: 1.5rem;
+    text-shadow: none;
+    position: absolute;
+    color: black;
+    transform:translateX(5.6rem);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cont1{
+    height: 90vh;
+    background-image: linear-gradient(60deg,white,rgba(16, 100, 165, 0.596),white);
+}
+.products h3{
+    transform: translateX(2rem);
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card-body p{
+    font-size: large;
+    text-align: center;
+    margin: 0;
+    font-weight: bold;
+    
+}
+.products-title{
+    font-size: 3rem;
+    text-align: center;
+    font-style: italic;
+    font-family: cursive;
+
+}
+.card-body a{
+    text-decoration: none;
+    color: black;
+}
+.card-body a:hover{
+    color: brown;
+}
+.offer{
+    height: 50vh;
+    background-color: rgba(235, 111, 77, 0.603);
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.mens, .kids, .womens{
+    margin-top: 3rem;
+}
